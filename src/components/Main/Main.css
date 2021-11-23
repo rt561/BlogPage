@@ -1,0 +1,29 @@
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog-sec {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #24375B;
+    margin-bottom: 25px;
+    height: 70px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  a {
+    color: #007BFF;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #122748;
+  }
+  
